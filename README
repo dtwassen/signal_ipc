@@ -1,0 +1,8 @@
+= Signal IPC
+Example in using SIGUSR1, SIGUSR2 for inter-process communication.
+
+== Description
+A process is forked, a string is read in, and then sent to the child. 
+The transmission is conducted while reading the chars in the string bitwise and encoding 0 as the process signal SIGUSR1 and 1 as SIGUSR2.
+
+This is just an example in learning processes and IPC.
